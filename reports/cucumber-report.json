@@ -1,0 +1,105 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1085070100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the application",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 408340800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "user clicks on sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207029999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "user enters login credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40395300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user clicks login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597653499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should login successfully",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3013687499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 433058200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "playwright-cucumber-framework",
+  "version": "1.0.0",
+  "description": "Playwright Cucumber BDD Framework in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "set HEADLESS=false && cucumber-js",
+    "test:report": "node utils/helper.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^10.9.0",
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^16.6.1",
+    "multiple-cucumber-html-reporter": "^3.10.0"
+  },
+  "type": "commonjs"
+}
