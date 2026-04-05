@@ -1,0 +1,6 @@
+{
+  "code": {
+    "valid": "print('Stack working')",
+    "invalid": "print('Stack'"
+  }
+}
