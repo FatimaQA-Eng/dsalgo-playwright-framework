@@ -1,0 +1,6 @@
+{
+  "code": {
+    "valid": "print('Hello World')",
+    "invalid": "print('Hello'"
+  }
+}

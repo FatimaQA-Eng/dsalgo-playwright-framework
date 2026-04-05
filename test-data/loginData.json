@@ -1,4 +1,6 @@
 {
   "username": "playwrightgr3",
-  "password": "test2026!"
+  "password": "test2026!",
+  "invalidUser": "wrongUser",
+  "invalidPass": "wrongPass"
 }

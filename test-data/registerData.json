@@ -1,0 +1,27 @@
+{
+  "empty": {
+    "username": "",
+    "password": "",
+    "confirmPassword": ""
+  },
+  "onlyUsername": {
+    "username": "testuser",
+    "password": "",
+    "confirmPassword": ""
+  },
+  "onlyPassword": {
+    "username": "",
+    "password": "Test@123",
+    "confirmPassword": "Test@123"
+  },
+  "mismatch": {
+    "username": "testuser123",
+    "password": "Test@123",
+    "confirmPassword": "Wrong@123"
+  },
+  "valid": {
+    "username": "user1234567898",
+    "password": "Test@123",
+    "confirmPassword": "Test@123"
+  }
+}

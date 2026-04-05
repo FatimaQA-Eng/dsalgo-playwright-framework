@@ -4,82 +4,121 @@
     "elements": [
       {
         "description": "",
-        "id": "login-functionality;login-using-valid-credentials",
+        "id": "functional---sign-in;invalid-password",
         "keyword": "Scenario",
-        "line": 3,
-        "name": "Login using valid credentials",
+        "line": 10,
+        "name": "Invalid password",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1815680499
+              "duration": 490821500
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 4,
-            "name": "user launches the application",
+            "name": "User is on Launch page",
             "match": {
-              "location": "features\\step-definitions\\login.steps.js:8"
+              "location": "features\\step-definitions\\login.steps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 416935300
+              "duration": 378222299
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 5,
-            "name": "user clicks on sign in link",
+            "name": "User clicks on Get Started button",
             "match": {
               "location": "features\\step-definitions\\login.steps.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 237106800
+              "duration": 183960399
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "Then ",
             "line": 6,
-            "name": "user enters login credentials",
+            "name": "User should land on Home Page",
             "match": {
               "location": "features\\step-definitions\\login.steps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 47312599
+              "duration": 37597099
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "When ",
             "line": 7,
-            "name": "user clicks login button",
+            "name": "User clicks on Sign in link",
             "match": {
               "location": "features\\step-definitions\\login.steps.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 515978299
+              "duration": 302702100
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 8,
-            "name": "user should login successfully",
+            "name": "User should land on Login Page",
             "match": {
-              "location": "features\\step-definitions\\login.steps.js:25"
+              "location": "features\\step-definitions\\login.steps.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 3006506700
+              "duration": 16521599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User enters username \"username\" and password \"invalidPass\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28230700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 200786299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29072400
             }
           },
           {
@@ -87,7 +126,741 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 370064699
+              "duration": 308229199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional---sign-in;invalid-username",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Invalid username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 618925400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Launch page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299527500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140737100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should land on Home Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13329399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239588900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should land on Login Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14965299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User enters username \"invalidUser\" and password \"password\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22808299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202648599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Error message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32166999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 292380900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional---sign-in;empty-fields",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Empty fields",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 486422599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Launch page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 311794100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149115600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should land on Home Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15025900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 347646899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should land on Login Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16898099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94536900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Validation message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26136099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 283552399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional---sign-in;valid-login",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Valid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 489357900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Launch page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336909200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169277399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should land on Home Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11334299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 335967999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should land on Login Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15330199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User enters username \"username\" and password \"password\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23426300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User clicks Login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 510528900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "User should be redirected to Home page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11697400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 308455600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional---sign-in;logout",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 573540699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Launch page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321625999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151188899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should land on Home Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11838300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295475500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should land on Login Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14976700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "User is logged in",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1344195799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "User clicks Sign out from login",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 468306899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "User should be redirected to Home page with logout message",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16337499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 259735000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional---sign-in;auto-focus-on-username",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Auto focus on username",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 452568700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Launch page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 325292900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139115700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should land on Home Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15547400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 420348700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should land on Login Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17024699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Cursor should be in username field",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4792999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 320891499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "functional---sign-in;keyboard-navigation",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Keyboard navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 458639300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Launch page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 301210399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks on Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 137249499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should land on Home Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10620800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User clicks on Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 241507900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should land on Login Page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15571700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User presses Tab key",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6368500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Focus should move in correct order",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5177799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 253254899
             }
           }
         ],
@@ -95,10 +868,10 @@
         "type": "scenario"
       }
     ],
-    "id": "login-functionality",
+    "id": "functional---sign-in",
     "line": 1,
     "keyword": "Feature",
-    "name": "Login functionality",
+    "name": "Functional - Sign In",
     "tags": [],
     "uri": "features\\login.feature"
   }
