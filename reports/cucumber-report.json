@@ -4,6 +4,3715 @@
     "elements": [
       {
         "description": "",
+        "id": "data-structures;navigate-to-data-structures-introduction",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Navigate to Data Structures Introduction",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 618064100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1617382999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 234250899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "User should be in Data Structures Introduction page",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4202598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 324841600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-structures;navigate-to-time-complexity",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Navigate to Time Complexity",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 641002999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1482020499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242335900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "User clicks Time Complexity link",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209781600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should be in Time Complexity page",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1829999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 257762099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-structures;navigate-to-practice-questions",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Navigate to Practice Questions",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 656033200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1454960300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 270496999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks Time Complexity link",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 236053798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks Practice Questions button",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163585999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User should be in Practice Questions page",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12512199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 323371299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-structures;navigate-to-try-editor",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Navigate to Try Editor",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 643818799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1452207199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 281088699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User clicks Time Complexity link",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292233799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User clicks Try Here button",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1623988800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "User should be in Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:92"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1012932799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 300319400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-structures;run-without-code",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Run without code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 593193400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1427626999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 253138900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User clicks Time Complexity link",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235355398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User clicks Try Here button",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1641830098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User clicks Run button without code",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:101"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64534198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "Error alert should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1008407099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 314720900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-structures;run-invalid-code",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Run invalid code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 650991500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2119303999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263034898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User clicks Time Complexity link",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232002900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User clicks Try Here button",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1623604099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User runs code \"invalid\"",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3127684699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "Error alert should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1002918300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 320544599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "data-structures;run-valid-code",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Run valid code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 629133799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1463135499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 46,
+            "name": "User clicks Data Structures Get Started",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260664900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "User clicks Time Complexity link",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 439944200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "User clicks Try Here button",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1653514398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "User runs code \"valid\"",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:105"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3121107099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "Output should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4118898
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 286425799
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "data-structures",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Data Structures",
+    "tags": [],
+    "uri": "features\\datastructure.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-home-page-title",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify Home Page Title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 620570599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 389870698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 159024000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10892399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Page title should be \"NumpyNinja\"",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2797699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 270614200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-register-and-sign-in-links",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Verify Register and Sign in links",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 599131700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320223698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 192859499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10015100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Register and Sign in links should be visible",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372944898
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 331224500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-register-navigation",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify Register navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 629745600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307665398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165242099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12461298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User clicks Register link",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331368198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User lands on Register page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24663599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 303579400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-sign-in-navigation",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verify Sign in navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 842370999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339837199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 166743799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18219198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User clicks Sign in link",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336859998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User lands on Login page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18972798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 417119299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 33,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 961320399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308239099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163888098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14685999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Data Structures\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 435672500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13279899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 373113600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 34,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 886029800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 369783299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173712500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18174900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Array\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 418813200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13265499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 367244000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 35,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 908044999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 339144599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179991798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19357100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Linked List\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 441134300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15134799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 368603699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 36,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 963896300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 297126998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170872699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29087199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Stack\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 305764998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16989300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 323393499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 37,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 907179100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317095899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213315399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14810599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Queue\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417496399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14323099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 367984199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 38,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 880365099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317083199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176404998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19061099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Tree\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422927600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14314799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 389562599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-cards-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 39,
+        "name": "Verify alert for cards (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1005230199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317577398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184568998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17044399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User clicks \"Graph\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 331702600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16859598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 394264500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-dropdown-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 47,
+        "name": "Verify alert for dropdown (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 863720900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293847199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188677000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14890699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User selects \"Arrays\" from dropdown",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 478858198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13956099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 381555699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-dropdown-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 48,
+        "name": "Verify alert for dropdown (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 881219100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 359198099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 210893598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13627200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User selects \"Linked List\" from dropdown",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 482690499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14774100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 382591799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-dropdown-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 49,
+        "name": "Verify alert for dropdown (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 885610600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317621498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171942999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21858600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User selects \"Stack\" from dropdown",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 469946800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17694299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 322086499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-dropdown-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 50,
+        "name": "Verify alert for dropdown (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 894678999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310798299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183211599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15229800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User selects \"Queue\" from dropdown",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 358997299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15812898
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 390193799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-dropdown-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 51,
+        "name": "Verify alert for dropdown (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 925565600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 290606699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 180099099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16834299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User selects \"Tree\" from dropdown",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 484502099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11586098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 379855700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-alert-for-dropdown-(not-logged-in)",
+        "keyword": "Scenario Outline",
+        "line": 52,
+        "name": "Verify alert for dropdown (not logged in)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 888381200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 304197899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209607599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14939699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User selects \"Graph\" from dropdown",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 391393699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "Alert message \"You are not logged in\" should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13190400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 389532200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-login-success",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "Verify login success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 842238100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 313286300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 207319399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14917699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 57,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1470839000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "User should land on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14691999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 325292400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-username-display",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Verify username display",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 787505100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 337584100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 173007498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22331898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 922935899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "Username should be visible on top",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 535394399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 313662899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 71,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 951935299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 310533199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168616299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18879700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 939916798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Data Structures\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221870600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Data\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1107899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 358470000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 72,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 919822800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289342299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171329798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16646898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 876875799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Array\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208445198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Array\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23559999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 383302899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 73,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 978356599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307751199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165792400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15060098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1053559499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Linked List\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 221454499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Linked List\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63952098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 281166699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 74,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 841590800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293763700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189581799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17418898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 891237600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Stack\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 216035300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Stack\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 140599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 341430999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 75,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 876374100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302818498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 201892099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18946699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1046800000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Queue\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209946598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Queue\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288815799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 76,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 893379199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321488099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188811899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15529499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 931577399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Tree\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 242108899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Tree\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24827698
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 367498299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-navigation-after-login",
+        "keyword": "Scenario Outline",
+        "line": 77,
+        "name": "Verify navigation after login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1024347300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289770299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 195461699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16303099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 65,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 891196300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 66,
+            "name": "User clicks \"Graph\" card Get Started",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 258044499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User should navigate to \"Graph\" page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3617399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 298053200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "home-page---ds-algo-portal;verify-logout",
+        "keyword": "Scenario",
+        "line": 79,
+        "name": "Verify logout",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 876404900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User is in Launch page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 320722298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User clicks Get Started button",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 202229600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User lands on Home page",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17023499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 80,
+            "name": "User logs in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 931277099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "User clicks Sign out",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 340760599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Logout message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20233800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 376884900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@home",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "home-page---ds-algo-portal",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Home Page - DS Algo Portal",
+    "tags": [
+      {
+        "name": "@home",
+        "line": 1
+      }
+    ],
+    "uri": "features\\home.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "launch-page---dsalgo-portal;open-dsalgo-portal",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open dsAlgo portal",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 844116899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user has browser open",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user enters correct dsAlgo portal URL",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352604000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the user should be able to land on dsAlgo portal",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31033099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 332997100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launch-page---dsalgo-portal;verify-presence-of-get-started-button",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Verify presence of Get Started button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 996111499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "the user has browser open",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user enters correct dsAlgo portal URL",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 360877499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should see 1 button in launch page",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42021899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 355687200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launch-page---dsalgo-portal;verify-button-is-enabled",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify button is enabled",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 939912100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "the user has browser open",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 285998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user enters correct dsAlgo portal URL",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303690198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "button should be in enabled state",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34403800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 324001300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launch-page---dsalgo-portal;verify-page-title",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify page title",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 927742899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user has browser open",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user enters correct dsAlgo portal URL",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 298548999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "page title should be \"Numpy Ninja\"",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33386398
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 387695800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "launch-page---dsalgo-portal;verify-page-content",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify page content",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 993725300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "the user has browser open",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user enters correct dsAlgo portal URL",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317062599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user should see launch page content",
+            "match": {
+              "location": "features\\step-definitions\\launchPage.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32645200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 365767400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "launch-page---dsalgo-portal",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Launch Page - dsAlgo Portal",
+    "tags": [],
+    "uri": "features\\launchPage.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
         "id": "functional---sign-in;invalid-password",
         "keyword": "Scenario",
         "line": 10,
@@ -14,7 +3723,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 490821500
+              "duration": 1003288599
             }
           },
           {
@@ -27,7 +3736,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 378222299
+              "duration": 312563598
             }
           },
           {
@@ -40,7 +3749,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 183960399
+              "duration": 176839699
             }
           },
           {
@@ -53,7 +3762,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 37597099
+              "duration": 19053798
             }
           },
           {
@@ -66,7 +3775,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 302702100
+              "duration": 318874600
             }
           },
           {
@@ -79,7 +3788,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16521599
+              "duration": 19374500
             }
           },
           {
@@ -92,7 +3801,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 28230700
+              "duration": 27610899
             }
           },
           {
@@ -105,7 +3814,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 200786299
+              "duration": 222672600
             }
           },
           {
@@ -118,7 +3827,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29072400
+              "duration": 37159099
             }
           },
           {
@@ -126,7 +3835,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 308229199
+              "duration": 387760099
             }
           }
         ],
@@ -145,7 +3854,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 618925400
+              "duration": 962313600
             }
           },
           {
@@ -158,7 +3867,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 299527500
+              "duration": 309995399
             }
           },
           {
@@ -171,7 +3880,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 140737100
+              "duration": 176814199
             }
           },
           {
@@ -184,7 +3893,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 13329399
+              "duration": 16048898
             }
           },
           {
@@ -197,7 +3906,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 239588900
+              "duration": 326508599
             }
           },
           {
@@ -210,7 +3919,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14965299
+              "duration": 17355699
             }
           },
           {
@@ -223,7 +3932,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 22808299
+              "duration": 27074399
             }
           },
           {
@@ -236,7 +3945,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 202648599
+              "duration": 219089599
             }
           },
           {
@@ -249,7 +3958,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32166999
+              "duration": 25089199
             }
           },
           {
@@ -257,7 +3966,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 292380900
+              "duration": 398451000
             }
           }
         ],
@@ -276,7 +3985,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 486422599
+              "duration": 955378800
             }
           },
           {
@@ -289,7 +3998,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 311794100
+              "duration": 319446500
             }
           },
           {
@@ -302,7 +4011,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 149115600
+              "duration": 169461299
             }
           },
           {
@@ -315,7 +4024,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15025900
+              "duration": 14143498
             }
           },
           {
@@ -328,7 +4037,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 347646899
+              "duration": 314749299
             }
           },
           {
@@ -341,7 +4050,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16898099
+              "duration": 19010099
             }
           },
           {
@@ -354,7 +4063,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 94536900
+              "duration": 116882699
             }
           },
           {
@@ -367,7 +4076,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 26136099
+              "duration": 27656398
             }
           },
           {
@@ -375,7 +4084,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 283552399
+              "duration": 396078699
             }
           }
         ],
@@ -394,7 +4103,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 489357900
+              "duration": 966601800
             }
           },
           {
@@ -407,7 +4116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 336909200
+              "duration": 284338399
             }
           },
           {
@@ -420,7 +4129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 169277399
+              "duration": 177309598
             }
           },
           {
@@ -433,7 +4142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11334299
+              "duration": 16488599
             }
           },
           {
@@ -446,7 +4155,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 335967999
+              "duration": 329359699
             }
           },
           {
@@ -459,7 +4168,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15330199
+              "duration": 16315499
             }
           },
           {
@@ -472,7 +4181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23426300
+              "duration": 23469099
             }
           },
           {
@@ -485,7 +4194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 510528900
+              "duration": 536378800
             }
           },
           {
@@ -498,7 +4207,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11697400
+              "duration": 22310999
             }
           },
           {
@@ -506,7 +4215,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 308455600
+              "duration": 346197700
             }
           }
         ],
@@ -525,7 +4234,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 573540699
+              "duration": 878075900
             }
           },
           {
@@ -538,7 +4247,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 321625999
+              "duration": 335109999
             }
           },
           {
@@ -551,7 +4260,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 151188899
+              "duration": 164197299
             }
           },
           {
@@ -564,7 +4273,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11838300
+              "duration": 16034499
             }
           },
           {
@@ -577,7 +4286,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 295475500
+              "duration": 343475299
             }
           },
           {
@@ -590,7 +4299,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 14976700
+              "duration": 22191800
             }
           },
           {
@@ -603,7 +4312,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1344195799
+              "duration": 1202063800
             }
           },
           {
@@ -616,7 +4325,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 468306899
+              "duration": 470292600
             }
           },
           {
@@ -629,7 +4338,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16337499
+              "duration": 18006498
             }
           },
           {
@@ -637,7 +4346,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 259735000
+              "duration": 245567399
             }
           }
         ],
@@ -656,7 +4365,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 452568700
+              "duration": 713799599
             }
           },
           {
@@ -669,7 +4378,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 325292900
+              "duration": 298823099
             }
           },
           {
@@ -682,7 +4391,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 139115700
+              "duration": 200631999
             }
           },
           {
@@ -695,7 +4404,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15547400
+              "duration": 16826798
             }
           },
           {
@@ -708,7 +4417,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 420348700
+              "duration": 335102099
             }
           },
           {
@@ -721,7 +4430,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 17024699
+              "duration": 17782099
             }
           },
           {
@@ -734,7 +4443,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4792999
+              "duration": 5020499
             }
           },
           {
@@ -742,7 +4451,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 320891499
+              "duration": 424189800
             }
           }
         ],
@@ -761,7 +4470,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 458639300
+              "duration": 916353699
             }
           },
           {
@@ -774,7 +4483,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 301210399
+              "duration": 319260999
             }
           },
           {
@@ -787,7 +4496,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 137249499
+              "duration": 188264099
             }
           },
           {
@@ -800,7 +4509,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 10620800
+              "duration": 14082899
             }
           },
           {
@@ -813,7 +4522,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 241507900
+              "duration": 329952298
             }
           },
           {
@@ -826,7 +4535,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 15571700
+              "duration": 17926399
             }
           },
           {
@@ -839,7 +4548,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 6368500
+              "duration": 7593998
             }
           },
           {
@@ -852,7 +4561,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5177799
+              "duration": 4202099
             }
           },
           {
@@ -860,7 +4569,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 253254899
+              "duration": 345325899
             }
           }
         ],
@@ -874,5 +4583,2041 @@
     "name": "Functional - Sign In",
     "tags": [],
     "uri": "features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-registration-flow-(data-driven);empty-fields-validation",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Empty fields validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 992898300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 458269399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User enters registration data \"empty\"",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68834999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User clicks Register button",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 78684999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Required field validation should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43796299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 380152700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration-flow-(data-driven);only-username-entered",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Only username entered",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 937258100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 370261098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User enters registration data \"onlyUsername\"",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65486700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User clicks Register button",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82155300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Required field validation should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54901199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 388739999
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration-flow-(data-driven);only-password-entered",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Only password entered",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 993144700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412594999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User enters registration data \"onlyPassword\"",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63420300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks Register button",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83255800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Required field validation should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51295099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 358537000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration-flow-(data-driven);password-mismatch",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Password mismatch",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 997401199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 400701399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User enters registration data \"mismatch\"",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64180698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User clicks Register button",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 158185499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "Required field validation should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69534899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 357019100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-registration-flow-(data-driven);successful-registration",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Successful registration",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 908654399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398045399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "User enters registration data \"valid\"",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69055098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User clicks Register button",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 427963100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Success message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 544736599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "User logs in with same credentials",
+            "match": {
+              "location": "features\\step-definitions\\register.steps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644849200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Username should be visible on top",
+            "match": {
+              "location": "features\\step-definitions\\home.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 518242299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 241360200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-registration-flow-(data-driven)",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Registration Flow (Data Driven)",
+    "tags": [],
+    "uri": "features\\register.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-stack-page",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Navigate to Stack page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 692342100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1614502499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User selects \"Stack\" from Data Structures dropdown",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 302290600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should be redirected to Stack page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14201398
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 278416300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-operations-in-stack-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Navigate to Operations in Stack page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 905621500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1637536199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "User is on Stack page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287319299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User clicks \"Operations in Stack\" link",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 223553800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "User should be redirected to Operations in Stack page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12675599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 345573399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-try-editor-from-operations-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Navigate to Try Editor from Operations page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 906151000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1522632600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "User is on Operations in Stack page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564954598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "User clicks \"Try here\" button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 650577499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should be redirected to Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12825298
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 266303100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;run-invalid-python-code",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Run invalid python code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 743626499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1553047298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1172220399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User runs code \"invalid\" in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610077498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Error alert should be displayed in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 405598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 247908899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;handle-popup-alert",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Handle popup alert",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 718999500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1601494099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1186794400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User clicks Run button without code in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597214499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "Error alert should be displayed in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 303100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 318941900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;run-valid-python-code",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Run valid python code",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 672290700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1556060299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1169677299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "User runs code \"valid\" in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 595311098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "Output should be displayed in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2754499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 328248699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-back-to-operations-page",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Navigate back to Operations page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 796308000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1554948698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1154994900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "User clicks browser back button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62132899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "User should be redirected to Operations in Stack page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11802498
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 323074900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-implementation-page",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "Navigate to Implementation page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 742768699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1569705600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 41,
+            "name": "User is on Operations in Stack page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 629745099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "User clicks \"Implementation\" link",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232379999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "User should be redirected to Implementation page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13435099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 344884200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-try-editor-from-implementation-page",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Navigate to Try Editor from Implementation page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 881795700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1527208399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "User is on Implementation page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 745372799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "User clicks \"Try here\" button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623019498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "User should be redirected to Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16438799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 331667300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;run-invalid-python-code-in-implementation",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "Run invalid python code in Implementation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 766871199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1522368098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 53,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1224790999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 54,
+            "name": "User runs code \"invalid\" in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586041099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "Error alert should be displayed in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 293899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 307481900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;handle-popup-alert-in-implementation",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "Handle popup alert in Implementation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 703695000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1641688000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1207455299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "User clicks Run button without code in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 601966399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Error alert should be displayed in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 251101099
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;run-valid-python-code-in-implementation",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Run valid python code in Implementation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 677354099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1613924099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1227832300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "User runs code \"valid\" in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 586492798
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "Output should be displayed in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2443900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 289967000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-back-to-implementation-page",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Navigate back to Implementation page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 727754699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1582865499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 68,
+            "name": "User is on Implementation page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 801350999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "User clicks \"Try here\" button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605178899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "User clicks browser back button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37575298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "User should be redirected to Implementation page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:126"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13114799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 257070300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-application-page",
+        "keyword": "Scenario",
+        "line": 75,
+        "name": "Navigate to Application page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 761474900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1714973799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 76,
+            "name": "User is on Implementation page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 713149198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 77,
+            "name": "User clicks \"Application\" link",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 206430199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 78,
+            "name": "User should be redirected to Application page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:195"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16703399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 251571900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-try-editor-from-application-page",
+        "keyword": "Scenario",
+        "line": 80,
+        "name": "Navigate to Try Editor from Application page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 757752500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1511067598
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 81,
+            "name": "User is on Application page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 903699699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 82,
+            "name": "User clicks \"Try here\" button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 629528998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 83,
+            "name": "User should be redirected to Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24907399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 274369399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;run-invalid-python-code-in-application",
+        "keyword": "Scenario",
+        "line": 85,
+        "name": "Run invalid python code in Application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 975314699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1624837099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 86,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1196104700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 87,
+            "name": "User runs code \"invalid\" in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611863600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 88,
+            "name": "Error alert should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1003917900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 348867100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;run-valid-python-code-in-application",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Run valid python code in Application",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 645190600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1639232299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "User is on Try Editor page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1127763299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "User runs code \"valid\" in stack",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 592960398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "Output should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2239699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288663599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-back-to-application-page",
+        "keyword": "Scenario",
+        "line": 95,
+        "name": "Navigate back to Application page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 686155599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1729761499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 96,
+            "name": "User is on Application page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1071062599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 97,
+            "name": "User clicks \"Try here\" button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 623991800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "User clicks browser back button",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27872900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 99,
+            "name": "User should be redirected to Application page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:195"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8935098
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 256906400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;navigate-to-practice-questions-page",
+        "keyword": "Scenario",
+        "line": 103,
+        "name": "Navigate to Practice Questions page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 672999299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2467293899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 104,
+            "name": "User is on Application page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1041575299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 105,
+            "name": "User clicks \"Practice Questions\" link",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:207"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185397900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "User should be redirected to Practice page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8841600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 250415899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "stack-data-structure;logout-from-practice-page",
+        "keyword": "Scenario",
+        "line": 108,
+        "name": "Logout from Practice page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 679061500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is logged in with valid credentials",
+            "match": {
+              "location": "features\\step-definitions\\datastructure.steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1822380000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 109,
+            "name": "User is on Practice page",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:168"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1601142399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 110,
+            "name": "User clicks \"Sign out\" link",
+            "match": {
+              "location": "features\\step-definitions\\stack.steps.js:211"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 321890898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "User should be redirected to Home page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16543199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 250040000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "stack-data-structure",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Stack Data Structure",
+    "tags": [],
+    "uri": "features\\stack.feature"
   }
 ]
