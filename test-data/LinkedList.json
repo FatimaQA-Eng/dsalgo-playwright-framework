@@ -1,0 +1,5 @@
+{
+  "Invalidcode": "printHello, Li!,",
+  "Validcode": "print(120+234+456)",
+  "Alphanumeric": "MY Playwright @#$LL"
+}

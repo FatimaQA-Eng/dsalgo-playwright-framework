@@ -1,5 +1,8 @@
 Feature: Login functionality
 
+@tree 
+@queue
+@linkedlist
   Scenario: Login using valid credentials
     Given user launches the application
     When user clicks on sign in link
