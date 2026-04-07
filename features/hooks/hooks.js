@@ -2,46 +2,51 @@ const { setDefaultTimeout, Before, After, AfterStep, BeforeAll, AfterAll } = req
 const { chromium, firefox, webkit } = require('@playwright/test');
 const config = require('../../config/config');
 const TreePage = require('../../pages/TreePage');
+const LoginPage = require('../../pages/loginPage');
+const RegisterPage = require('../../pages/registerPage');
+const LaunchPage = require('../../pages/launchPage');
+const HomePage = require('../../pages/homePage');
+const StackPage = require('../../pages/stackPage');
+const DatastructurePage = require('../../pages/datastructurePage');
 
 let browser;
 let context;
 let page;
 
-// Set Cucumber step timeout globally before any tests start
-setDefaultTimeout(config.timeout || 90000);
-
-BeforeAll(async function () {
-  if (config.browser === 'firefox') browser = await firefox.launch({ headless: config.headless });
-  else if (config.browser === 'webkit') browser = await webkit.launch({ headless: config.headless });
-  else browser = await chromium.launch({ headless: config.headless });
-
-  context = await browser.newContext();
-  page = await context.newPage();
-  });
-
 Before({ timeout: 60000 }, async function () {
-  this.context = context; 
-  this.page = page;
- 
+  // Launch browser based on config — supports Chrome, Firefox, Safari
+  if (config.browser === 'firefox') {
+    browser = await firefox.launch({ headless: config.headless });
+  } else if (config.browser === 'webkit') {
+    browser = await webkit.launch({ headless: config.headless });
+  } else {
+    browser = await chromium.launch({ headless: config.headless });
+  }
+
+  context = await browser.newContext();
+  page = await context.newPage();
+
+  this.page = page;
+  this.launchPage = new LaunchPage(this.page);
+  this.registerPage = new RegisterPage(this.page);
+  this.homePage = new HomePage(this.page);
+  this.stackPage = new StackPage(this.page);
+  this.datastructurePage = new DatastructurePage(this.page);
 });
 
-
+// Takes screenshot automatically when any test FAILS
 AfterStep(async function (scenario) {
-
-  if (scenario.result.status === 'FAILED') {
+  if (scenario.result.status === 'FAILED') {
     const screenshot = await this.page.screenshot();
-  this.attach(screenshot, 'image/png');
-  path: `reports/screenshots/${Date.now()}.png`
-  
- } });
+    this.attach(screenshot, 'image/png');
+  }
+});
 
-
-
-AfterAll(async function () {
-  setTimeout(async () => {
-    if (this.page) await this.page.close();
-    if (this.context) await this.context.close();
-    if (browser) await browser.close();
-  }, 3000); // Adjust the timeout as needed
-
+After({ timeout: 60000 }, async function () {
+  if (this.page) {
+    await this.page.close();
+  }
+  if (browser) {
+    await browser.close();
+  }
 });
