@@ -1,18 +1,23 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 const TreePage = require('../../pages/TreePage');
 const LoginPage = require('../../pages/loginPage');
+const homePage = require("../../pages/homePage");
 const TryEditorPage = require('../../pages/TryEditorPage');
 const config = require('../../config/config');
 const loginData = require('../../test-data/loginData.json');
 const TreeData = require('../../test-data/TreeData.json');
 const { expect } = require('@playwright/test');
+const { BASE_URL } = require('../../config/env');
 
 var treePage = new TreePage(this.page);
 var alertmsg, result;
 
 Given('user is on the Home page', { timeout: 60000 }, async function () {
+  const homepage = new homePage(this.page);
   const loginPage = new LoginPage(this.page);
-    await loginPage.launchApp(config.baseURL);
+  this.page.goto("https://dsportalapp.herokuapp.com/home");
+  await loginPage.gotoLogin();
+  await loginPage.login(loginData.username, loginData.password);
   });
 
 
@@ -203,7 +208,6 @@ await treePage.gotopracticequestions();
 Then('user should be able to see the content of "Practice Questions" section',{ timeout: 60000 }, async function () {
 const treePage = new TreePage(this.page);
 result = await treePage.verifypracticequestions();
-console.log(result);
  expect(result).toBeTruthy();
 });
 
@@ -211,26 +215,25 @@ console.log(result);
 
 //Verify that user is able to navigate to "Try Here>>>" page 
 
-Given('The user is in the "Overview of Trees" page', { timeout: 60000 }, async function () {
-const treePage = new TreePage(this.page);
-await treePage.gotoTreepagelinks('overview-of-trees');
-});
 
 When('user clicks on "Try Here>>>" button in "Overview of Trees" section', { timeout: 60000 }, async function () {
 console.log('Clicking on Try Here button in Overview of Trees section');
 const treePage = new TreePage(this.page);
+await treePage.gotoTreepagelinks('overview-of-trees');
 await treePage.clickTryHereTree();
 });
 
 Then('user should be navigated to "Try Editor" page successfully', { timeout: 60000 }, async function () {
 console.log('Try editor URL:', await this.page.url());
+   // expect(this.page).toHaveURL(/https:\/\/dsportalapp\.herokuapp\.com\/tryEditor/);
+
 });
 
 // Verify that user is able to enter valid Java code in Text Box
 
 Given('The user is in the "Try Editor" page', { timeout: 60000 }, async function () {
-console.log('Ensuring user is on Try Editor page');
-
+const tryeditorpage = new TryEditorPage(this.page);
+await tryeditorpage.goToTryEditorPage();
 });
 
 When('user enters valid Java code in Text Box and clicks on "Run" button', { timeout: 60000 }, async function () {
@@ -248,36 +251,53 @@ Then('user should be able to see the output of the code in the output section', 
 
 When('user enters invalid Java code in Text Box and clicks on "Run" button', { timeout: 60000 }, async function () {
 const tryeditorpage = new TryEditorPage(this.page);
-
+await tryeditorpage.goToTryEditorPage();
  alertmsg = await tryeditorpage.verifycodeinput(TreeData.Invalidcode);
 //console.log('Entered invalid Java code and clicked Run');
 });     
 
-Then('The user should be able to see Alert Message "Syntax Error"', { timeout: 60000 }, async function () {
+Then('The user should be able to see Alert Message "Syntax Error" for invalid code', { timeout: 60000 }, async function () {
     expect(alertmsg.toLowerCase()).toContain('syntax');
-    console.log('Alert Message : '+ alertmsg);
+   // console.log('Alert Message : '+ alertmsg);
 });
 
 //Verify that user is getting alert by entering random alphanumeric characters in text area and click on "Run" button
 When('user enters random alphanumeric characters in Text Box and clicks on "Run" button', { timeout: 60000 }, async function () {
   
   const tryeditorpage = new TryEditorPage(this.page);
+  await tryeditorpage.goToTryEditorPage();
  alertmsg = await tryeditorpage.verifycodeinput(TreeData.Alphanumeric);
 
 });
 
-Then('The user should be able to see Alert Message "Not Defined"', { timeout: 60000 }, async function () {
+Then('The user should be able to see Alert Message "Syntax Error"', { timeout: 60000 }, async function () {
      expect(alertmsg.toLowerCase()).toContain('syntax');
-    console.log('Alert Message : '+ alertmsg);
+   // console.log('Alert Message : '+ alertmsg);
+});
+
+
+//verify that user is getting alert by entering name in text area and click on "Run" button
+When('user enters random name in Text Box and clicks on "Run" button', { timeout: 60000 }, async function () {
+  
+  const tryeditorpage = new TryEditorPage(this.page);
+  await tryeditorpage.goToTryEditorPage();
+ alertmsg = await tryeditorpage.verifycodeinput(TreeData.nameinput);
+
+});
+
+Then('The user should be able to see Alert Message "Name Error"', { timeout: 60000 }, async function () {
+     expect(alertmsg.toLowerCase()).toContain('name');
+  //  console.log('Alert Message : '+ alertmsg);
 });
 //Verify that user is getting alert by clicking on "Run" button leaving text area blank
 
 When('user clicks on "Run" button leaving text area blank', { timeout: 60000 }, async function () {
 const tryeditorpage = new TryEditorPage(this.page);
+await tryeditorpage.goToTryEditorPage();
  alertmsg = await tryeditorpage.verifycodeinput(TreeData.blank);
 });
 
 Then('The user should be able to see Alert Message for blank text area', { timeout: 60000 }, async function () {
   expect(alertmsg).toContain('noinput');
-console.log('Alert Message : '+ alertmsg);
+//console.log('Alert Message : '+ alertmsg);
 });

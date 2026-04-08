@@ -2,5 +2,6 @@
   "Invalidcode": " print Hello, Tree!",
   "Validcode": "print(100+200)",
   "Alphanumeric": "MY Playwrights @#$Tree",
+  "nameinput": "John",
   "blank": ""
 }

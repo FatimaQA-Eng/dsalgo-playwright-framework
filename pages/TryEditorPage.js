@@ -11,7 +11,12 @@ class TryEditorPage {
     this.page = page;
   }
 
+ async goToTryEditorPage()
+  {
+   await this.page.goto("https://dsportalapp.herokuapp.com/tryEditor");
+    console.log(await this.page.url());
 
+  }
   async verifycodeinput(codetext) {
     // Reload page
     await this.page.reload();

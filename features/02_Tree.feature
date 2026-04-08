@@ -100,7 +100,6 @@ Scenario: Validate "Practice Questions" page
     Then user should be able to see the content of "Practice Questions" section  
 @tree
 Scenario: Verify that user is able to navigate to "Try Here>>>" page 
-    Given The user is in the "Overview of Trees" page
     When user clicks on "Try Here>>>" button in "Overview of Trees" section
     Then user should be navigated to "Try Editor" page successfully
 
@@ -114,13 +113,19 @@ Scenario: Verify that user is able to enter valid Java code in Text Box
 Scenario: Verify that user is getting alert by entering wrong syntax in text area and click on "Run" button
 
 When user enters invalid Java code in Text Box and clicks on "Run" button
-Then The user should be able to see Alert Message "Syntax Error"
+Then The user should be able to see Alert Message "Syntax Error" for invalid code
 
 @tree
 Scenario: Verify that user is getting alert by entering random alphanumeric characters in text area and click on "Run" button
 
 When user enters random alphanumeric characters in Text Box and clicks on "Run" button
-Then The user should be able to see Alert Message "Not Defined"
+Then The user should be able to see Alert Message "Syntax Error" 
+
+@tree
+Scenario: Verify that user is getting alert by entering name in text area and click on "Run" button
+
+When user enters random name in Text Box and clicks on "Run" button
+Then The user should be able to see Alert Message "Name Error"
 
 @tree
 Scenario: Verify that user is getting alert by clicking on "Run" button leaving text area blank

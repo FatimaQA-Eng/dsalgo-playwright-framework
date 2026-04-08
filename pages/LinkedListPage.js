@@ -79,31 +79,6 @@ class LinkedListPage {
   
   
 
-  /*async verifyCreatingLinkedList() {
-  let val= 0;
-    console.log('Verifying Creating Linked List page content');
-  console.log('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~');
-    const titleLocator = await this.page.locator('a:has-text("Creating Linked LIst")');
-    const titleText = await titleLocator.textContent();
-    console.log('Page Title:', titleText); 
-    try{
-    await expect.soft(titleLocator).toContainText('Creating Linked List');
-    console.log('Title verification passed');
-
-    } catch (error) {
-      console.log('Title verification failed');
-     
-    } 
-    
-    const paragraph = await this.page.locator('p').filter({ hasText: 'Why you need to create your linked list' }).first();
-    //const paragraphtext = await paragraph.textContent();
-      try{
-    await expect.soft(paragraph).not.toBeEmpty();
-    console.log('Page content is present');
-    
-    } catch (error) {
-      console.log('Page content is blank');
-  } */
- 
+  
 }
 module.exports = LinkedListPage;   

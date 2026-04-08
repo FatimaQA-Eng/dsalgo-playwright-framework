@@ -1,20 +1,24 @@
 const { setDefaultTimeout, Before, After, AfterStep, BeforeAll, AfterAll } = require('@cucumber/cucumber');
 const { chromium, firefox, webkit } = require('@playwright/test');
 const config = require('../../config/config');
-const TreePage = require('../../pages/TreePage');
+
 const LoginPage = require('../../pages/loginPage');
 const RegisterPage = require('../../pages/registerPage');
 const LaunchPage = require('../../pages/launchPage');
 const HomePage = require('../../pages/homePage');
 const StackPage = require('../../pages/stackPage');
 const DatastructurePage = require('../../pages/datastructurePage');
+const TreePage = require('../../pages/TreePage');
+const QueuePage = require('../../pages/QueuePage');
+const LinkedlistPage = require('../../pages/LinkedListPage');
 
 let browser;
 let context;
 let page;
 
+
 Before({ timeout: 60000 }, async function () {
-  // Launch browser based on config — supports Chrome, Firefox, Safari
+ // Launch browser based on config — supports Chrome, Firefox, Safari
   if (config.browser === 'firefox') {
     browser = await firefox.launch({ headless: config.headless });
   } else if (config.browser === 'webkit') {

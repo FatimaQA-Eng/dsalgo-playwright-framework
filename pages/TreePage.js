@@ -1,5 +1,5 @@
 const { timeout } = require("../config/config");
-const LoginPage = require("./loginPage");
+const homePage = require("./homePage");
 //const loginData = require('C:\DsAlgo-Playwright\PlaywrightCucumberBDD\test-data\loginData.json);
 const { expect } = require('@playwright/test');
 //const TreeData = require('../../test-data/TreeData.json');
@@ -137,7 +137,6 @@ class TreePage {
     } catch (error) {
       console.log('Page is blank');
     } 
-    console.log("value " +val);
     if(val == 1){
       return true; 
     }
