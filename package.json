@@ -4,18 +4,23 @@
   "description": "Playwright Cucumber BDD Framework in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
+      "test": "cucumber-js --format json:reports/cucumber_report.json",
     "test:headed": "set HEADLESS=false && cucumber-js",
-    "test:report": "node utils/helper.js"
+    "test:report": "node utils/helper.js",
+    "extent-report": "node reports.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cucumber/cucumber": "^10.9.0",
     "@playwright/test": "^1.58.2",
     "dotenv": "^16.6.1",
     "multiple-cucumber-html-reporter": "^3.10.0"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "cucumber-html-reporter": "^6.0.0"
+  }
+  
 }

@@ -9,6 +9,8 @@ const StackPage = require('../../pages/stackPage');
 const DatastructurePage = require('../../pages/datastructurePage');
 const GraphPage = require('../../pages/graphpage');
 const ArrayPage = require('../../pages/arraypage');
+//const GraphPage = require('../../pages/graphpage');
+//const ArrayPage = require('../../pages/arraypage');
 
 let browser;
 let context;
