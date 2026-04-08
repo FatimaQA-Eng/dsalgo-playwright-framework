@@ -86,31 +86,6 @@ class TreePage {
     
   }
 
-
-    /*async verifytypeoftreescontent() {
-    console.log('Verifying Type of Trees page content');
-     console.log('___________________________________');
-
-    const titleLocator = await this.page.locator('p').filter({ hasText: 'Types of Trees' }).first()
-    const titleText = await titleLocator.textContent();
-    console.log('Page Title:', titleText); 
-    try{
-    await expect.soft(titleLocator).toContainText('Types of Trees');
-    console.log('Title verification passed');
-    } catch (error) {
-      console.log('Title verification failed');
-    } 
-
-    const paragraph = await this.page.locator('p').filter({ hasText: 'If a tree has no constraint' }).first();
-    //const paragraphtext = await paragraph.textContent();
-      try{
-    await expect.soft(paragraph).not.toBeEmpty();
-    console.log('Page content is present');
-    } catch (error) {
-      console.log('Page content is blank');
-    } 
-  }*/
-
   async clickTryHereTree() {
     console.log("Veryifying 'Try Here' in: ", this.page.url());
     console.log('__________________________________________');
