@@ -1,4 +1,4 @@
-const { Before, After, AfterStep } = require('@cucumber/cucumber');
+const { BeforeAll, AfterAll, Before, After, AfterStep } = require('@cucumber/cucumber');
 const { chromium, firefox, webkit } = require('@playwright/test');
 const config = require('../../config/config');
 const LoginPage = require('../../pages/loginPage');
@@ -7,13 +7,14 @@ const LaunchPage = require('../../pages/launchPage');
 const HomePage = require('../../pages/homePage');
 const StackPage = require('../../pages/stackPage');
 const DatastructurePage = require('../../pages/datastructurePage');
+//const GraphPage = require('../../pages/graphpage');
+//const ArrayPage = require('../../pages/arraypage');
 
 let browser;
 let context;
 let page;
 
-Before({ timeout: 60000 }, async function () {
-  // Launch browser based on config — supports Chrome, Firefox, Safari
+BeforeAll({ timeout: 60000 }, async function () {
   if (config.browser === 'firefox') {
     browser = await firefox.launch({ headless: config.headless });
   } else if (config.browser === 'webkit') {
@@ -21,7 +22,9 @@ Before({ timeout: 60000 }, async function () {
   } else {
     browser = await chromium.launch({ headless: config.headless });
   }
+});
 
+Before({ timeout: 60000 }, async function () {
   context = await browser.newContext();
   page = await context.newPage();
 
@@ -31,9 +34,11 @@ Before({ timeout: 60000 }, async function () {
   this.homePage = new HomePage(this.page);
   this.stackPage = new StackPage(this.page);
   this.datastructurePage = new DatastructurePage(this.page);
+  //this.graphPage = new GraphPage(this.page);
+  //this.arrayPage = new ArrayPage(this.page);
+  this.loginPage = new LoginPage(this.page);
 });
 
-// Takes screenshot automatically when any test FAILS
 AfterStep(async function (scenario) {
   if (scenario.result.status === 'FAILED') {
     const screenshot = await this.page.screenshot();
@@ -42,10 +47,10 @@ AfterStep(async function (scenario) {
 });
 
 After({ timeout: 60000 }, async function () {
-  if (this.page) {
-    await this.page.close();
-  }
-  if (browser) {
-    await browser.close();
-  }
+  if (this.page) await this.page.close();
+  if (context) await context.close();
+});
+
+AfterAll({ timeout: 60000 }, async function () {
+  if (browser) await browser.close();
 });

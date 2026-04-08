@@ -1,0 +1,2349 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login using valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 344399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user launches the application",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254069698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user clicks on sign in link",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121416399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enters login credentials",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43317199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks login button",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 515541300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "user should login successfully",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3004444799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 3
+          },
+          {
+            "name": "@queue",
+            "line": 4
+          },
+          {
+            "name": "@linkedlist",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "features\\01_login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "treepage-functionality;verify-that-user-is-able-to-navigate-to-\"tree\"-page",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify that user is able to navigate to \"Tree\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "user is on the Home page",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152188999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user clicks Get Started button under Tree section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 261871200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should be navigated to Tree page successfully",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 324888498
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"overview-of-trees\"-page",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Validate \"Overview of Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "user is on the Tree page",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 860900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user clicks on \"Overview of Trees\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453311499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be able to see the content of \"Overview of Trees\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194780098
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"type-of-trees\"-page",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Validate \"Type of Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user clicks on \"Type of Trees\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164849398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should be able to see the content of \"Type of Trees\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 278241300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"terminologies\"-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Validate \"Terminologies\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1954499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "user clicks on \"terminologies\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235796298
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "user should be able to see the content of \"terminologies\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61185799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 21
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"traversals-illustration\"-page",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Validate \"Traversals-Illustration\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 142100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "user clicks on \"Traversals-Illustration\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:72"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 352878399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "user should be able to see the content of \"Traversals-Illustration\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133172298
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 27
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"tree-traversals\"-page",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Validate \"Tree Traversals\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 139699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user clicks on \"Tree Traversals\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 235599399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user should be able to see the content of \"Tree Traversals\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179082299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Validate \"Binary Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 117600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "user clicks on \"Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274627498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "user should be able to see the content of \"Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40410598
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"types-of-binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Validate \"Types of Binary Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 130100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "user clicks on \"Types of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 289955300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "user should be able to see the content of \"Types of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271165598
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 42
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"implementation-in-python\"-page",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Validate \"Implementation in Python\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 100899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "user clicks on \"Implementation in Python\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155187199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 52,
+            "name": "user should be able to see the content of \"Implementation in Python\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47290198
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 48
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"types-of-binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Validate \"Types of Binary Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 152799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 56,
+            "name": "user clicks on \"Types of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154286400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "user should be able to see the content of \"Types of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:111"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 123680599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"binary-tree-traversals\"-page",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "Validate \"Binary Tree Traversals\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 109000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "user clicks on \"Binary Tree Traversals\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:128"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 288817500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "user should be able to see the content of \"Binary Tree Traversals\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257525199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"implementation-of-binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Validate \"Implementation of Binary Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 57699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 68,
+            "name": "user clicks on \"Implementation of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163011799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 69,
+            "name": "user should be able to see the content of \"Implementation of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40355100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 65
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"applications-of-binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 72,
+        "name": "Validate \"Applications of Binary trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 55999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "user clicks on \"Applications of Binary trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141966200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 75,
+            "name": "user should be able to see the content of \"Applications of Binary trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:155"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5039204598
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 71
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"binary-search-trees\"-page",
+        "keyword": "Scenario",
+        "line": 78,
+        "name": "Validate \"Binary Search Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 121999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 80,
+            "name": "user clicks on \"Binary Search Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:161"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 709385799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "user should be able to see the content of \"Binary Search Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:166"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193575700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 77
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"implementation-of-binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 84,
+        "name": "Validate \"Implementation of Binary Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 111300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 86,
+            "name": "user clicks on \"Implementation of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 307938900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 87,
+            "name": "user should be able to see the content of \"Implementation of Binary Trees\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:144"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151518600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 83
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"implementation-of-binary-trees\"-page",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Validate \"Implementation of Binary Trees\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 105100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "user clicks on \"Implementation Of BST\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:172"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151603898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 93,
+            "name": "user should be able to see the content of \"Implementation Of BST\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5039128198
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 89
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;validate-\"practice-questions\"-page",
+        "keyword": "Scenario",
+        "line": 97,
+        "name": "Validate \"Practice Questions\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 124200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 99,
+            "name": "user clicks on \"Practice Questions\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165674300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 100,
+            "name": "user should be able to see the content of \"Practice Questions\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3592899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 96
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;verify-that-user-is-able-to-navigate-to-\"try-here>>>\"-page",
+        "keyword": "Scenario",
+        "line": 102,
+        "name": "Verify that user is able to navigate to \"Try Here>>>\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 103,
+            "name": "The user is in the \"Overview of Trees\" page",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:197"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 208050400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 104,
+            "name": "user clicks on \"Try Here>>>\" button in \"Overview of Trees\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:202"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 257644500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 105,
+            "name": "user should be navigated to \"Try Editor\" page successfully",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:208"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 494800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 101
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;verify-that-user-is-able-to-enter-valid-java-code-in-text-box",
+        "keyword": "Scenario",
+        "line": 108,
+        "name": "Verify that user is able to enter valid Java code in Text Box",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 44600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 109,
+            "name": "The user is in the \"Try Editor\" page",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:214"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 262999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 110,
+            "name": "user enters valid Java code in Text Box and clicks on \"Run\" button",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:219"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3716455599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 111,
+            "name": "user should be able to see the output of the code in the output section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:224"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 712499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 107
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;verify-that-user-is-getting-alert-by-entering-wrong-syntax-in-text-area-and-click-on-\"run\"-button",
+        "keyword": "Scenario",
+        "line": 114,
+        "name": "Verify that user is getting alert by entering wrong syntax in text area and click on \"Run\" button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 116,
+            "name": "user enters invalid Java code in Text Box and clicks on \"Run\" button",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:231"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5498821899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 117,
+            "name": "The user should be able to see Alert Message \"Syntax Error\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:238"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 113
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;verify-that-user-is-getting-alert-by-entering-random-alphanumeric-characters-in-text-area-and-click-on-\"run\"-button",
+        "keyword": "Scenario",
+        "line": 120,
+        "name": "Verify that user is getting alert by entering random alphanumeric characters in text area and click on \"Run\" button",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 79400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 122,
+            "name": "user enters random alphanumeric characters in Text Box and clicks on \"Run\" button",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:243"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5470205398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 123,
+            "name": "The user should be able to see Alert Message \"Not Defined\"",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:249"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 972598
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 119
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "treepage-functionality;verify-that-user-is-getting-alert-by-clicking-on-\"run\"-button-leaving-text-area-blank",
+        "keyword": "Scenario",
+        "line": 126,
+        "name": "Verify that user is getting alert by clicking on \"Run\" button leaving text area blank",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 150699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 128,
+            "name": "user clicks on \"Run\" button leaving text area blank",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:254"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8234152398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 129,
+            "name": "The user should be able to see Alert Message for blank text area",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:259"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 605800
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tree",
+            "line": 125
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "treepage-functionality",
+    "line": 3,
+    "keyword": "Feature",
+    "name": "TreePage Functionality",
+    "tags": [],
+    "uri": "features\\02_Tree.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"queue\"-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify that user is able to navigate to \"Queue\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 119899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the Home page",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161378499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks Get Started button under Queue section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145792898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be navigated to Queue page successfully",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44958199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-see-the-content-of-\"implementation-of-queue-in-python\"-section",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify that user is able to see the content of \"Implementation of Queue in Python\" section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 53300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "user is on the Queue page",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 581299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user clicks on \"Implementation of Queue in Python\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 164558399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be able to see the content of \"Implementation of Queue in Python\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35188099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"implementation-using-collections.deque\"-page",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify that user is able to navigate to \"Implementation using collections.deque\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user clicks on \"Implementation using collections.deque\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171035199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user should be able to see the content of \"Implementation using collections.deque\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39310599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-implementation-using-array",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "validate Implementation using array",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 112599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user clicks on \"Implementation using array\"",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148548299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user should be able to see the content of \"Implementation using array\"",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50330599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-queue-operations",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "validate Queue Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 75100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "user clicks on \"Queue Operations\"",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145275599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "user should be able to see the content of \"Queue Operations\"",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40309099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"try-here>>>\"-page-from-\"implementation-of-queue-in-python\"-section",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Verify that user is able to navigate to \"Try Here>>>\" page from \"Implementation of Queue in Python\" section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 74500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "The user is in the \"Implementation of Queue in Python\" page",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:79"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 150670699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "user clicks on \"Try Here>>>\" button in \"Implementation of Queue in Python\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:84"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 145738600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "user should be navigated to \"Try Editor\" page successfully from \"Implementation of Queue in Python\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3301655098
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"try-here>>>\"-page-from-\"implementation-using-collections.deque\"-section",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Verify that user is able to navigate to \"Try Here>>>\" page from \"Implementation using collections.deque\" section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 40,
+            "name": "The user is in the \"Implementation using collections.deque\" page",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 141893998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "user clicks on \"Try Here>>>\" button in \"Implementation using collections.deque\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183798299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "user should be navigated to \"Try Editor\" page successfully from \"Implementation using collections.deque\" section",
+            "match": {
+              "location": "features\\step-definitions\\Queue.steps.js:109"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5969814999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"practice-questions\"-page",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "Verify that user is able to navigate to \"Practice Questions\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 88700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 47,
+            "name": "user clicks on \"Practice Questions\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 162462299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 48,
+            "name": "user should be able to see the content of \"Practice Questions\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1548998
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@queue",
+            "line": 44
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "queuepage-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "QueuePage Functionality",
+    "tags": [],
+    "uri": "features\\03_Queue.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"linkedlist\"-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify that user is able to navigate to \"linkedlist\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 42300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is on the Home page",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146644500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user clicks Get Started button under linkedlist section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 161320098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be navigated to linkedlist page successfully",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38139698
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-see-the-content-of-\"introduction\"-section",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify that user is able to see the content of \"Introduction\" section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "user is on the linkedlist page",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 299398
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user clicks on \"Introduction\" section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254171899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be able to see the content of \"Introduction\" section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52895999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"try-here>>>\"-page-from-\"introduction\"-section",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify that user is able to navigate to \"Try Here>>>\" page from \"Introduction\" section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "The user is in the \"Introduction\" page",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:113"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196068499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user clicks on \"Try Here>>>\" button in \"Introduction\" section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 157814299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user should be navigated to \"Try Editor\" page successfully from \"Introduction\" section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3368768598
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"try-here>>>\"-page-from-\"creating-linked-list\"-section",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Verify that user is able to navigate to \"Try Here>>>\" page from \"Creating Linked List\" section",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 100299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "The user is in the \"Creating Linked List\" page",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 232589199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "user clicks on \"Try Here>>>\" button in \"Creating Linked List\" section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:134"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 143373399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user should be navigated to \"Try Editor\" page successfully from \"Creating Linked List\" section",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:140"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5390843599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;verify-that-user-is-able-to-navigate-to-\"practice-questions\"-page",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Verify that user is able to navigate to \"Practice Questions\" page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 84900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "user clicks on \"Practice Questions\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 205851498
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "user should be able to see the content of \"Practice Questions\" section",
+            "match": {
+              "location": "features\\step-definitions\\Tree.steps.js:188"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4305699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-creating-linked-list-operations",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "validate Creating Linked List Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 72199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "user clicks on \"Creating Linked List\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250591198
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "user should be able to see the content of \"Creating Linked List\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5059430898
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 34
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-types-of-linked-list-operations",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "validate Types of Linked List Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "user clicks on \"Types of Linked List\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291090499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "user should be able to see the content of \"Types of Linked List\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43418899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-implement-linked-list-in-python-operations",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "validate Implement Linked List in Python Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 56499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 50,
+            "name": "user clicks on \"Implement Linked List in Python\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155156999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 51,
+            "name": "user should be able to see the content of \"Implement Linked List in Python\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92229499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-traversal-operations",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "validate Traversal Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "user clicks on \"Traversal\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:76"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 284641399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "user should be able to see the content of \"Traversal\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52846498
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-insertion-operations",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "validate Insertion Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 54199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "user clicks on \"Insertion\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168638698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 65,
+            "name": "user should be able to see the content of \"Insertion\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:94"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47145100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 61
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "queuepage-functionality;validate-deletion-operations",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "validate Deletion Operations",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 66200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "user clicks on \"Deletion\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:100"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 174488499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "user should be able to see the content of \"Deletion\"",
+            "match": {
+              "location": "features\\step-definitions\\LinkedList.steps.js:106"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41430199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@linkedlist",
+            "line": 67
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "queuepage-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "QueuePage Functionality",
+    "tags": [],
+    "uri": "features\\04_LinkedList.feature"
+  }
+]
