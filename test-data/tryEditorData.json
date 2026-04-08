@@ -1,0 +1,11 @@
+{
+  "validCode": {
+    "code": "print('Hello from Array Try Editor!')"
+  },
+  "invalidCode": {
+    "code": "!@#$% not valid python"
+  },
+  "emptyCode": {
+    "code": ""
+  }
+}

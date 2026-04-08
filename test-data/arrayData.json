@@ -1,0 +1,15 @@
+{
+  "credentials": {
+    "username": "playwrightgr3",
+    "password": "test2026!"
+  },
+  "urls": {
+    "baseUrl": "https://dsportalapp.herokuapp.com",
+    "arrayUrl": "https://dsportalapp.herokuapp.com/array/",
+    "arraysInPython": "https://dsportalapp.herokuapp.com/array/arrays-in-python/",
+    "arraysUsingList": "https://dsportalapp.herokuapp.com/array/arrays-using-list/",
+    "basicOperations": "https://dsportalapp.herokuapp.com/array/basic-operations-in-lists/",
+    "applicationsOfArray": "https://dsportalapp.herokuapp.com/array/applications-of-array/",
+    "practiceQuestions": "https://dsportalapp.herokuapp.com/array/practice"
+  }
+}
