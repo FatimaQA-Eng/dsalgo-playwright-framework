@@ -1,4 +1,4 @@
-const { Before, After, AfterStep } = require('@cucumber/cucumber');
+const { BeforeAll, AfterAll, Before, After, AfterStep } = require('@cucumber/cucumber');
 const { chromium, firefox, webkit } = require('@playwright/test');
 const config = require('../../config/config');
 const LoginPage = require('../../pages/loginPage');
@@ -14,7 +14,7 @@ let browser;
 let context;
 let page;
 
-Before({ timeout: 60000 }, async function () {
+BeforeAll({ timeout: 60000 }, async function () {
   if (config.browser === 'firefox') {
     browser = await firefox.launch({ headless: config.headless });
   } else if (config.browser === 'webkit') {
@@ -22,7 +22,9 @@ Before({ timeout: 60000 }, async function () {
   } else {
     browser = await chromium.launch({ headless: config.headless });
   }
+});
 
+Before({ timeout: 60000 }, async function () {
   context = await browser.newContext();
   page = await context.newPage();
 
@@ -45,10 +47,10 @@ AfterStep(async function (scenario) {
 });
 
 After({ timeout: 60000 }, async function () {
-  if (this.page) {
-    await this.page.close();
-  }
-  if (browser) {
-    await browser.close();
-  }
+  if (this.page) await this.page.close();
+  if (context) await context.close();
+});
+
+AfterAll({ timeout: 60000 }, async function () {
+  if (browser) await browser.close();
 });
