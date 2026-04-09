@@ -17,5 +17,8 @@
     "dotenv": "^16.6.1",
     "multiple-cucumber-html-reporter": "^3.10.0"
   },
-  "type": "commonjs"
+  "type": "commonjs",
+  "devDependencies": {
+    "allure-cucumberjs": "^3.7.0"
+  }
 }

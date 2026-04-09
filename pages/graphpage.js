@@ -78,14 +78,23 @@ class GraphPage {
   // GRAPH PAGE NAVIGATION
   // ─────────────────────────────────────────
 
-  async clickGraphGetStarted() {
-    const graphBtn = this.page.locator('a[href="graph"]');
-    await graphBtn.waitFor({ state: 'visible', timeout: 15000 });
-    await graphBtn.click();
-    await this.page.waitForLoadState('networkidle');
-    console.log('URL after Graph click:', this.page.url());
-  }
+async clickGraphGetStarted() {
+  const graphBtn = this.page.locator('a[href="graph"]');
+  await graphBtn.waitFor({ state: 'visible', timeout: 15000 });
+  await graphBtn.click();
+  await this.page.waitForLoadState('networkidle');
+  console.log('URL after Graph click:', this.page.url());
+}
 
+async clickGraphGetStartedDefect() {
+  // Defect 1 — strict mode violation: resolves to 2 elements
+  const graphBtn = this.page.locator('.card', 
+    { hasText: 'Graph' })
+    .locator('text=Get Started');
+  await graphBtn.waitFor({ state: 'visible', timeout: 15000 });
+  await graphBtn.click();
+  await this.page.waitForLoadState('networkidle');
+}
   // ─────────────────────────────────────────
   // GRAPH PAGE VERIFICATION
   // ─────────────────────────────────────────
@@ -242,14 +251,9 @@ async enterCode(code) {
   }
 
 async verifyErrorOnInvalidCode() {
-  const cmEditor = this.page.locator('.CodeMirror');
-  if (await cmEditor.count() > 0) {
-    await cmEditor.click();
-    await this.page.keyboard.type(tryEditorData.invalidCode.code);
-  } else {
-    await this.page.locator('#editor')
-      .fill(tryEditorData.invalidCode.code);
-  }
+  // Defect 2 — textarea strict mode violation
+  await this.page.locator('textarea').fill(
+    tryEditorData.invalidCode.code);
   await this.clickRun();
   await this.page.waitForTimeout(3000);
   const output = this.page.locator('#output');
@@ -257,5 +261,6 @@ async verifyErrorOnInvalidCode() {
   console.log('Error output text:', text);
   console.log('Error output verified');
 }
+  
 }
 module.exports = GraphPage;
