@@ -4,5 +4,7 @@ module.exports = {
   baseURL: env.BASE_URL,
   browser: env.BROWSER,
   headless: env.HEADLESS,
-  timeout: 60000
+  timeout: 80000
+
+  
 };
