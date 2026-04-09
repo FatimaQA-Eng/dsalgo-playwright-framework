@@ -9,21 +9,17 @@ const StackPage = require('../../pages/stackPage');
 const DatastructurePage = require('../../pages/datastructurePage');
 const GraphPage = require('../../pages/graphpage');
 const ArrayPage = require('../../pages/arraypage');
-//const GraphPage = require('../../pages/graphpage');
-//const ArrayPage = require('../../pages/arraypage');
+const { launchBrowser } = require("../../browserManager");
+
 
 let browser;
 let context;
 let page;
 
 BeforeAll({ timeout: 60000 }, async function () {
-  if (config.browser === 'firefox') {
-    browser = await firefox.launch({ headless: config.headless });
-  } else if (config.browser === 'webkit') {
-    browser = await webkit.launch({ headless: config.headless });
-  } else {
-    browser = await chromium.launch({ headless: config.headless });
-  }
+    const browserType = process.env.BROWSER || "chromium";
+
+  browser = await launchBrowser(browserType);
 });
 
 Before({ timeout: 60000 }, async function () {
