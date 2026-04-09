@@ -24,10 +24,16 @@
   },
   "type": "commonjs",
   "devDependencies": {
+<<<<<<< HEAD
+    "allure-cucumberjs": "^3.7.0"
+  }
+=======
     "@cucumber/cucumber": "^12.7.0",
     "allure-commandline": "^2.38.1",
     "allure-cucumberjs": "^3.7.0",
     "cross-env": "^10.1.0",
     "cucumber-html-reporter": "^6.0.0"
   }
+  
+>>>>>>> 37f5bffe9606c3719464593559aa7ecb5d543416
 }

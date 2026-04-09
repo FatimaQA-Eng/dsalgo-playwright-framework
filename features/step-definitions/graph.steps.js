@@ -99,7 +99,7 @@ When('user clicks {string} in Graph module',
 
 When('The user clicks {string} button in the Graph module at Home page',
   { timeout: 20000 }, async function (button) {
-    await this.graphPage.clickGraphGetStarted();
+    await this.graphPage.clickGraphGetStartedDefect();
   });
 
 When('The user verifies the content in {string} page',
