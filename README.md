@@ -133,12 +133,7 @@ Timing differences across browsers required wait strategy adjustments. Parallel 
 
 ## 👥 Team
 
-| Name | Role |
-|------|------|
-| Mousumi | Base framework, Login module |
-| Fatima | Array module, Graph module |
-| Nila | Additional modules |
-| Sumathi | Team Lead / Organizer |
+Built collaboratively as part of the NumpyNinja RISE SDET Program team project.
 
 ---
 
@@ -148,4 +143,4 @@ This project was completed as part of the **NumpyNinja RISE SDET Program** — a
 
 ---
 
-*Built with 💙 by Fatima Alfred | [linkedin.com/in/fatima-alfred](https://linkedin.com/in/fatima-alfred)*
+Fatima Alfred | [linkedin.com/in/fatima-alfred](https://linkedin.com/in/fatima-alfred)
